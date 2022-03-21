@@ -7,7 +7,7 @@
 .header {
     min-height: 100vh;
     width: 100%;
-    background-image: linear-gradient(rgba(12, 13, 18, 0.88), rgb(3 46 10 / 61%)), url(img/header-bg.jpg);
+    background-image: linear-gradient(rgba(12, 13, 18, 0.88), rgb(3 46 10 / 61%)), url(img/header-back.jpg);
     background-position: center;
     background-size: cover;
     position: relative;
@@ -105,7 +105,7 @@ nav img {
 nav .fa{
     display: none;
 }
-@media(max-width:800px){
+@media(max-width:700px){
     .text-box h2{
         font-size: 20px;
     }
@@ -188,7 +188,7 @@ nav .fa{
 .course-col:hover{
     box-shadow: 0 0 25px 0 rgb(34,177,76);;
 }
-@media(max-width:800px){
+@media(max-width:700px){
 
     .course-para{
         flex-direction: column;
@@ -200,7 +200,9 @@ nav .fa{
         flex-direction: column;
         flex-basis: 80%;
     }
-
+    .cta h1{
+        font-size: 20px;
+    }
 }
 
 /* -----------campus------------ */
@@ -345,4 +347,52 @@ nav .fa{
 .test-col img{
     width: 51px;
     border-radius: 50%;
+}
+
+/* ---------call to action-------- */
+
+.cta{
+    margin: 100px auto;
+    width: 80%;
+    background-image: linear-gradient(rgba(12, 13, 18, 0.88), rgb(3 46 10 / 61%)), url(img/call-to-action.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+    text-align: center;
+    padding: 100px 50px;
+    color: rgb(34,177,76);
+}
+.cta h1{
+    font-size: 30px;
+    margin-bottom: 50px;
+}
+
+
+/* ---------footer-------- */
+.footer{
+    font-size: 32px;
+    color: rgb(34,177,76);;;
+    width: 100%;
+    text-align: center;
+}
+.footer h4{
+    margin-bottom: 25px;
+    margin-top: 20px;
+    font-weight: 600;
+}
+.footer .fa{
+    width: 25px;
+    color: rgb(34,177,76);;
+}
+.footer p{
+    font-size: 14px;
+    color: rgb(90, 87, 87);
+    padding: 0px 20px 25px 25px;
+}
+.copy{
+    display: block;
+    text-align: center;
+    margin: 25px;
+    color: black;
+    font-size: 15px;
 }
