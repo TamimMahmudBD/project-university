@@ -303,6 +303,7 @@ nav .fa{
     font-size: 14px;
 }
 .test-header{
+    font-size: 24px;
     color: rgb(34,177,76);;
     width: 80%;
     text-align: center;
@@ -312,6 +313,7 @@ nav .fa{
 }
 .test-header p{
     color: rgb(90, 87, 87);
+    font-size: 16px;
 }
 .test-para{
     width: 80%;
@@ -332,9 +334,13 @@ nav .fa{
     cursor: pointer;
     /* display: flex; */
 }
+.test-col .fa{
+    color: #ffffff;
+}
 .test-col h3{
-    margin: 10px;
-    text-align: right;
+    color: rgb(255, 255, 255);
+    margin-top: 10px;
+    text-align: left;
 }
 .test-col img{
     width: 51px;
