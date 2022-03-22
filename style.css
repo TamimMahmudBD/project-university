@@ -157,6 +157,7 @@ nav .fa{
     font-weight: 300;
     line-height: 22px;
     padding: 10px;
+    margin-bottom: 30px;
 }
 .course-para{
     width: 80%;
@@ -184,7 +185,7 @@ nav .fa{
     margin: 15px;
 }
 .course-para p{
-    color: rgb(0, 0, 0);
+    color: rgb(255 255 255);
 }
 .course-col:hover{
     box-shadow: 0 0 25px 0 rgb(34,177,76);;
@@ -204,6 +205,7 @@ nav .fa{
     .cta h1{
         font-size: 20px;
     }
+
 }
 
 /* -----------campus------------ */
@@ -278,6 +280,8 @@ nav .fa{
     color: rgb(90, 87, 87);
 }
 .fac-col{
+    background-color: #f5efef;
+    padding: 15px;
     flex-basis: 31%;
     margin: 10px;
     border-radius: 10px;
@@ -306,7 +310,7 @@ nav .fa{
     font-size: 14px;
 }
 .test-header{
-    font-size: 24px;
+    font-size: 20px;
     color: rgb(34,177,76);;
     width: 80%;
     text-align: center;
@@ -344,10 +348,14 @@ nav .fa{
     color: rgb(255, 255, 255);
     margin-top: 10px;
     text-align: left;
+    font-size: 16px;
 }
 .test-col img{
     width: 51px;
     border-radius: 50%;
+}
+.test-col p{
+    color: white;
 }
 
 /* ---------call to action-------- */
